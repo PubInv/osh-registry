@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<! OSH Registry main file for github pages implementation
+<!-- OSH Registry main file for github pages implementation
     Copyright (C) 2024  Robert L. Read
 
     This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-    --@>
+--!>
 <head>
     <meta charset="utf-8">
     <title> OSH Registry </title>
@@ -28,46 +28,76 @@
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"></script>
+crossorigin="anonymous"></script>
+
+ <script
+src="./js/elasticlunr.min.js"><script>
 
 </head>
 <body>
 
-<h1> OSH Registry </h1>
+  <h1> OSH Registry </h1>
 
-<p> A work-in-progress Registry and Search tool for Open Source Hardware projects.
-</p>
+  <p> A work-in-progress Registry and Search tool for Open Source Hardware projects.
+  </p>
 
-
-    <p>
-      <button type="button" onclick="runUnitTests()">
-        Execute Tests!</button>
-    </p>
-
-<p>
-  Search: <input type=text id="searchtext"></input>
+  <p>
+    <div>
+      Search: <input type=text id="searchtext"></input>
+    </div>
+    <div>
       <button type="button" onclick="search()">
         Search</button>
-    </p>
+    </div>
+  </p>
 
-    <h2>Licensing</h2>
+  <h2>Licensing</h2>
 
-    <img src="https://www.gnu.org/graphics/agplv3-with-text-162x68.png"></img>
+  <img src="https://www.gnu.org/graphics/agplv3-with-text-162x68.png"></img>
 
-    <p>All of the code on this site is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 2</a>, and I hope you will
-      reuse it. The code, including technical documentation, can be found <a href="https://github.com/PubInv/segmented-helixes">in the repo</a>.</p>
-    <p>To assist on this project, contact Robert L. Read &lt; read.robert@gmail.com &gt;</p>
+  <p>All of the code on this site is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License Version 2</a>, and I hope you will
+    reuse it. The code, including technical documentation, can be found <a href="https://github.com/PubInv/segmented-helixes">in the repo</a>.</p>
+  <p>To assist on this project, contact Robert L. Read &lt; read.robert@gmail.com &gt;</p>
+
+
+  <p>
+    <button type="button" onclick="runUnitTests()">
+      Execute Tests!</button>
+  </p>
+
 </body>
 
-<script>
+    <script>
 
-  function search() {
-    console.log($('#searchtext').val());
+var globalRegistry = null;
 
-      var repoName = "PubInv/nano-cap-table";
+
+var index = elasticlunr(function () {
+    this.addField('title');
+    this.addField('body');
+    this.setRef('id');
+});
+
+var doc1 = {
+    "id": 1,
+    "title": "Oracle released its latest database Oracle 12g",
+    "body": "Yestaday Oracle has released its new database Oracle 12g, this would make more money for this company and lead to a nice profit report of annual year."
+}
+
+var doc2 = {
+    "id": 2,
+    "title": "Oracle released its profit report of 2015",
+    "body": "As expected, Oracle released its profit report of 2015, during the good sales of database and hardware, Oracle's profit of 2015 reached 12.5 Billion."
+}
+
+index.addDoc(doc1);
+index.addDoc(doc2);
+
+async function loadRegistry() {
+      var repoName = "PubInv/osh-registry";
       var fileName = "osh-registry.json";
   //    var baseURL = "https://github.com";
-      var baseURL = "http://127.0.0.1:8080/";
+      var baseURL = "http://127.0.0.1:8080";
 
         // This worked...
       //    var url = `${baseURL}/${repoName}/${fileName}`;
@@ -80,12 +110,25 @@
     return response.text();
   })
   .then(data => {
-    console.log(data); // Do something with the content of the file
+      console.log(data); // Do something with the content of the file
+      globalRegistry = JSON.parse(data);
+      console.log(globalRegistry);
   })
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
   });
+}
 
+function search() {
+
+    if (globalRegistry) {
+        await loadRegistry();
+    }
+    console.log($('#searchtext').val());
+
+    let ss = $('#searchtext').val();
+    let search_results = index.search(ss);
+    console.log(search_results);
   }
 
   function runUnitTests() {

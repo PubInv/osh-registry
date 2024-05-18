@@ -10,7 +10,7 @@
         "type": "git",
         "url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor"
     },
-    "hardwareLicense": CERN-OHL-S",
+    "hardwareLicense": "CERN-OHL-S",
     "authors": [
     {
       "name": "Robert L. Read",
@@ -19,12 +19,12 @@
       "maintainer": true
     },
     {
-      "name": "Ben Coombs",
+      "name": "Ben Coombs"
     },
     {
-      "name": "Lauria Clarke",
+      "name": "Lauria Clarke"
     }
     ],
-    "version": "0.5",
+    "version": "0.5"
 }
 ]
