@@ -5,10 +5,10 @@ This is a work-in-progess in early stages.
 
 ## The Idea
 
-    This repo is modeled after the [Arduino Library Registry](https://github.com/arduino/library-registry)
-    and the way it works. The idea is to allow new open source hardware projects to be registered
-    here by making a pull request against a simple flat file that adds a new project.
-    In this way the public is encouraged to add new projects.
+This repo is modeled after the [Arduino Library Registry](https://github.com/arduino/library-registry)
+and the way it works. The idea is to allow new open source hardware projects to be registered
+here by making a pull request against a simple flat file that adds a new project.
+In this way the public is encouraged to add new projects.
 
     However, the Arduino community is mature and has a standardized and accepted in the libary.json
     file format. No consensus has yet formed in the open source hardware community, although
