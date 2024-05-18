@@ -1,0 +1,30 @@
+[
+{
+    "name": "VentMon",
+    "projectOrRegistry": "project",
+    "keywords": "spirometer, respiration, Arduino, ESP32",
+    "description": "VentMon: An open source IoT-enabled spriometer for testing medical ventilators",
+    "okh": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
+    "human-url": "https://www.pubinv.org/project/ventmon/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor"
+    },
+    "hardwareLicense": CERN-OHL-S",
+    "authors": [
+    {
+      "name": "Robert L. Read",
+      "email": "read.robert@gmail.com",
+      "url": "https://github.com/RobertLRead",
+      "maintainer": true
+    },
+    {
+      "name": "Ben Coombs",
+    },
+    {
+      "name": "Lauria Clarke",
+    }
+    ],
+    "version": "0.5",
+}
+]

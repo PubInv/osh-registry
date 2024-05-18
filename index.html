@@ -38,13 +38,17 @@
 <p> A work-in-progress Registry and Search tool for Open Source Hardware projects.
 </p>
 
+
     <p>
       <button type="button" onclick="runUnitTests()">
         Execute Tests!</button>
     </p>
 
-
-
+<p>
+  Search: <input type=text id="searchtext"></input>
+      <button type="button" onclick="search()">
+        Search</button>
+    </p>
 
     <h2>Licensing</h2>
 
@@ -57,10 +61,11 @@
 
 <script>
 
-  function runUnitTests() {
+  function search() {
+    console.log($('#searchtext').val());
 
       var repoName = "PubInv/nano-cap-table";
-      var fileName = "cap_table.json";
+      var fileName = "osh-registry.json";
   //    var baseURL = "https://github.com";
       var baseURL = "http://127.0.0.1:8080/";
 
@@ -81,9 +86,10 @@
     console.error('There was a problem with the fetch operation:', error);
   });
 
+  }
 
-    console.log($('#shares').val());
-    console.log($('#person').val());
+  function runUnitTests() {
+      alert("No Unit Tests yet, so SUCCESS!");
   };
 
 </script>
