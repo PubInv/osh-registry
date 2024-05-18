@@ -31,7 +31,7 @@ This is a work-in-progess in early stages.
     "projectOrRegistry": "project",
     "keywords": "spirometer, respiration, Arduino, ESP32",
     "description": "VentMon: An open source IoT-enabled spriometer for testing medical ventilators",
-    "okh": "NA",
+    "okh": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
     "human-url": "https://www.pubinv.org/project/ventmon/",
     "repository": {
         "type": "git",
@@ -44,9 +44,14 @@ This is a work-in-progess in early stages.
       "email": "read.robert@gmail.com",
       "url": "https://github.com/RobertLRead",
       "maintainer": true
+    },
+    {
+      "name": "Ben Coombs",
+    },
+    {
+      "name": "Lauria Clarke",
     }
     ],
-    "dependencies": {},
     "version": "0.5",
 }
 ```
