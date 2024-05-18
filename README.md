@@ -10,13 +10,13 @@ and the way it works. The idea is to allow new open source hardware projects to 
 here by making a pull request against a simple flat file that adds a new project.
 In this way the public is encouraged to add new projects.
 
-    However, the Arduino community is mature and has a standardized and accepted in the libary.json
-    file format. No consensus has yet formed in the open source hardware community, although
-    we advocate the [Open Know-How (OKH)](https://standards.internetofproduction.org/pub/okh/release/1)
-    standard.
+However, the Arduino community is mature and has a standardized and accepted in the libary.json
+file format. No consensus has yet formed in the open source hardware community, although
+we advocate the [Open Know-How (OKH)](https://standards.internetofproduction.org/pub/okh/release/1)
+standard.
 
-    We are seeking a registry that can take advantage of the OKH, but does not rely on it,
-    or even depend on git as a hosting mechanism.
+We are seeking a registry that can take advantage of the OKH, but does not rely on it,
+or even depend on git as a hosting mechanism.
 
 ## The osh-registry.json file Format
 
@@ -58,3 +58,11 @@ In this way the public is encouraged to add new projects.
 
 ## The Live Site
 When you are ready, please visit the [live website](https://pubinv.github.io/osh-registry/).
+
+## Contributors
+
+This project is led by Robert L. Read, Christina Cole, Victoria Jaqua and Andrew Lamb.
+
+## License
+
+This project is free software licensed under the GNU Affero General Public License.
