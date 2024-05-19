@@ -38,8 +38,11 @@ src="./js/elasticlunr.min.js"></script>
 
   <h1> OSH Registry </h1>
 
-  <p> A work-in-progress Registry and Search tool for Open Source Hardware projects.
-  </p>
+    <p> A work-in-progress Registry and Search tool for Open Source Hardware projects.
+    </p>
+    <p>
+    At present, only one project is indexed. Search for "VentMon" or "spirometer" to find it.
+    </p>
 
   <p>
     <div>
@@ -49,10 +52,14 @@ src="./js/elasticlunr.min.js"></script>
       <button type="button" onclick="search()">
         Search</button>
     </div>
+    <div>
+    Indexed Projects: <span id="numIndexedProjects"></span>
+    </div>
     </p>
     <p>
     Results:
 </p>
+    <div> Number of Results: <span id="numResults"></span>
     <div id="results">
     </div>
 
@@ -92,26 +99,23 @@ function indexRegistry() {
     var cnt = 0;
     globalRegistry.forEach( x => {
         // WARNING! This is ugly, improve later.
-        var doc = { name: x.name,
-                    description: x.description,
-                    keywords: x.keywords,
-                    hardwareLicense: x.hardwareLicense,
-                    id: cnt++
-                  };
-        console.log("doc =", doc);
-        index.addDoc(doc);
+        // var doc = { name: x.name,
+        //             description: x.description,
+        //             keywords: x.keywords,
+        //             hardwareLicense: x.hardwareLicense,
+
+        //             id: cnt++
+        //           };
+        x.id = cnt++;
+        console.log("doc =", x);
+        index.addDoc(x);
     });
 }
 
 
 function loadRegistry() {
-      var repoName = "PubInv/osh-registry";
       var fileName = "osh-registry.json";
-  //    var baseURL = "https://github.com";
       var baseURL = ".";
-
-        // This worked...
-      //    var url = `${baseURL}/${repoName}/${fileName}`;
       var url = `${baseURL}/${fileName}`;
     fetch(url)
   .then(response => {
@@ -125,6 +129,7 @@ function loadRegistry() {
       globalRegistry = JSON.parse(data);
       console.log(globalRegistry);
       indexRegistry();
+      $("#numIndexedProjects").html(globalRegistry.length);
   })
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
@@ -135,7 +140,7 @@ function createHTML(results) {
     var str = "";
     results.forEach(x =>
         {
-            str = str + "XXX" + x.doc.description;
+            str = str + `<div> Name: ${x.doc.name}</div><div> Description: ${x.doc.description}</div> <div> URL: <a href=${x.doc.browseToUrl}>${x.doc.browseToUrl}</a></div> <div> OKH URL: <a href=${x.doc.okhURL}>${x.doc.okhURL} `;
         }
     );
     return str;
@@ -154,6 +159,7 @@ function search() {
     let str = createHTML(search_results);
     console.log(str);
     console.log("xxx");
+    $('#numResults').html(search_results.length);
     $('#results').html(str);
 }
 

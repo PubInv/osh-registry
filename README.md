@@ -31,8 +31,8 @@ or even depend on git as a hosting mechanism.
     "projectOrRegistry": "project",
     "keywords": "spirometer, respiration, Arduino, ESP32",
     "description": "VentMon: An open source IoT-enabled spriometer for testing medical ventilators",
-    "okh": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
-    "human-url": "https://www.pubinv.org/project/ventmon/",
+    "okhURL": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
+    "browseToUrl": "https://www.pubinv.org/project/ventmon/",
     "repository": {
         "type": "git",
         "url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor"
