@@ -49,7 +49,12 @@ src="./js/elasticlunr.min.js"></script>
       <button type="button" onclick="search()">
         Search</button>
     </div>
-  </p>
+    </p>
+    <p>
+    Results:
+</p>
+    <div id="results">
+    </div>
 
   <h2>Licensing</h2>
 
@@ -59,11 +64,12 @@ src="./js/elasticlunr.min.js"></script>
     reuse it. The code, including technical documentation, can be found <a href="https://github.com/PubInv/segmented-helixes">in the repo</a>.</p>
   <p>To assist on this project, contact Robert L. Read &lt; read.robert@gmail.com &gt;</p>
 
-
+<!--
   <p>
     <button type="button" onclick="runUnitTests()">
       Execute Tests!</button>
-  </p>
+    </p>
+    -->
 
 </body>
 
@@ -73,25 +79,30 @@ var globalRegistry = null;
 
 
 var index = elasticlunr(function () {
-    this.addField('title');
-    this.addField('body');
+    this.addField('name');
+    this.addField('keywords');
+    this.addField('description');
+    this.addField('hardwareLicense');
+//    this.addField('authors');
     this.setRef('id');
 });
 
-var doc1 = {
-    "id": 1,
-    "title": "Oracle released its latest database Oracle 12g",
-    "body": "Yestaday Oracle has released its new database Oracle 12g, this would make more money for this company and lead to a nice profit report of annual year."
+
+function indexRegistry() {
+    var cnt = 0;
+    globalRegistry.forEach( x => {
+        // WARNING! This is ugly, improve later.
+        var doc = { name: x.name,
+                    description: x.description,
+                    keywords: x.keywords,
+                    hardwareLicense: x.hardwareLicense,
+                    id: cnt++
+                  };
+        console.log("doc =", doc);
+        index.addDoc(doc);
+    });
 }
 
-var doc2 = {
-    "id": 2,
-    "title": "Oracle released its profit report of 2015",
-    "body": "As expected, Oracle released its profit report of 2015, during the good sales of database and hardware, Oracle's profit of 2015 reached 12.5 Billion."
-}
-
-index.addDoc(doc1);
-index.addDoc(doc2);
 
 function loadRegistry() {
       var repoName = "PubInv/osh-registry";
@@ -113,15 +124,26 @@ function loadRegistry() {
       console.log(data); // Do something with the content of the file
       globalRegistry = JSON.parse(data);
       console.log(globalRegistry);
+      indexRegistry();
   })
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
   });
 }
 
+function createHTML(results) {
+    var str = "";
+    results.forEach(x =>
+        {
+            str = str + "XXX" + x.doc.description;
+        }
+    );
+    return str;
+}
+
 function search() {
 
-    if (globalRegistry) {
+    if (globalRegistry == null) {
         loadRegistry();
     }
     console.log($('#searchtext').val());
@@ -129,10 +151,18 @@ function search() {
     let ss = $('#searchtext').val();
     let search_results = index.search(ss);
     console.log(search_results);
-  }
+    let str = createHTML(search_results);
+    console.log(str);
+    console.log("xxx");
+    $('#results').html(str);
+}
 
-  function runUnitTests() {
+function runUnitTests() {
       alert("No Unit Tests yet, so SUCCESS!");
-  };
+};
 
+// Shorthand for $( document ).ready()
+$(function() {
+    loadRegistry();
+});
 </script>
