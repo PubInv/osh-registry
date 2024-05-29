@@ -45,12 +45,8 @@ or even depend on git as a hosting mechanism.
       "url": "https://github.com/RobertLRead",
       "maintainer": true
     },
-    {
-      "name": "Ben Coombs",
-    },
-    {
-      "name": "Lauria Clarke",
-    }
+    { "name": "Ben Coombs"},
+    { "name": "Lauria Clarke"}
     ],
     "version": "0.5",
 }
