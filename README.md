@@ -37,7 +37,7 @@ or even depend on git as a hosting mechanism.
         "type": "git",
         "url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor"
     },
-    "hardwareLicense": CERN-OHL-S",
+    "hardwareLicense": "CERN-OHL-S",
     "authors": [
     {
       "name": "Robert L. Read",
@@ -47,6 +47,10 @@ or even depend on git as a hosting mechanism.
     },
     { "name": "Ben Coombs"},
     { "name": "Lauria Clarke"}
+    ],
+    "makers": [
+        { "name" : "Public Invention",
+          "url" : "https://www.pubinv.org/"}
     ],
     "version": "0.5",
 }
