@@ -30,7 +30,7 @@ or even depend on git as a hosting mechanism.
     "name": "VentMon",
     "projectOrRegistry": "project",
     "keywords": "spirometer, respiration, Arduino, ESP32",
-    "description": "VentMon: An open source IoT-enabled spriometer for testing medical ventilators",
+    "description": "VentMon: An open source IoT-enabled spirometer for testing medical ventilators",
     "okhURL": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
     "browseToUrl": "https://www.pubinv.org/project/ventmon/",
     "repository": {
