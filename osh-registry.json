@@ -25,6 +25,10 @@
       "name": "Lauria Clarke"
     }
     ],
+    "makers": [
+        { "name" : "Public Invention",
+          "url" : "https://www.pubinv.org/"}
+    ],
     "version": "0.5"
 }
 ]
