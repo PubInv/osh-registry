@@ -38,7 +38,7 @@
     "projectOrRegistry": "project",
     "keywords": "PPE, respiration",
     "description": "This device is a lightweight powered air-purifying respirator (PAPR) that provides filtered air, face and eye protection, and skin surface cooling.",
-    "browseToUrl": "https://www.pubinv.org/project/ventmon/",
+    "browseToUrl": "https://www.instructables.com/DIY-Powered-Air-Purifying-Respirator-PAPR/",
     "repository": {
         "type": "git",
         "url": "https://github.com/nathanjds001/fdspapr"
