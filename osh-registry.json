@@ -30,9 +30,7 @@
           "url" : "https://www.pubinv.org/"}
     ],
     "version": "0.5"
-}
-]
-[
+},
 {
     "name": "FDS PAPR",
     "projectOrRegistry": "project",
