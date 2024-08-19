@@ -25,6 +25,31 @@
       "name": "Lauria Clarke"
     }
     ],
+    "makers": [
+        { "name" : "Public Invention",
+          "url" : "https://www.pubinv.org/"}
+    ],
     "version": "0.5"
+},
+{
+    "name": "FDS PAPR",
+    "projectOrRegistry": "project",
+    "keywords": "PPE, respiration",
+    "description": "This device is a lightweight powered air-purifying respirator (PAPR) that provides filtered air, face and eye protection, and skin surface cooling.",
+    "browseToUrl": "https://www.instructables.com/DIY-Powered-Air-Purifying-Respirator-PAPR/",
+    "okhURL": "NA",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nathanjds001/fdspapr"
+    },
+    "hardwareLicense": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+    {
+      "name": "Nathan de Souza",
+      "email": "not published",
+      "url": "https://www.instructables.com/member/Nathand66/",
+      "maintainer": true
+    }
+    ]
 }
 ]

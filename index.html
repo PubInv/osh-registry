@@ -140,7 +140,7 @@ function createHTML(results) {
     var str = "";
     results.forEach(x =>
         {
-            str = str + `<div> Name: ${x.doc.name}</div><div> Description: ${x.doc.description}</div> <div> URL: <a href=${x.doc.browseToUrl}>${x.doc.browseToUrl}</a></div> <div> OKH URL: <a href=${x.doc.okhURL}>${x.doc.okhURL} `;
+            str = str + `<div> Name: ${x.doc.name}</div><div> Description: ${x.doc.description}</div> <div> URL: <a href=${x.doc.browseToUrl}>${x.doc.browseToUrl}</a></div> <div> OKH URL: <a href=${x.doc.okhURL}>${x.doc.okhURL}</a> `;
         }
     );
     return str;

@@ -30,14 +30,14 @@ or even depend on git as a hosting mechanism.
     "name": "VentMon",
     "projectOrRegistry": "project",
     "keywords": "spirometer, respiration, Arduino, ESP32",
-    "description": "VentMon: An open source IoT-enabled spriometer for testing medical ventilators",
+    "description": "VentMon: An open source IoT-enabled spirometer for testing medical ventilators",
     "okhURL": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor/blob/master/ventmon-okh.yml",
     "browseToUrl": "https://www.pubinv.org/project/ventmon/",
     "repository": {
         "type": "git",
         "url": "https://github.com/PubInv/ventmon-ventilator-inline-test-monitor"
     },
-    "hardwareLicense": CERN-OHL-S",
+    "hardwareLicense": "CERN-OHL-S",
     "authors": [
     {
       "name": "Robert L. Read",
@@ -45,12 +45,12 @@ or even depend on git as a hosting mechanism.
       "url": "https://github.com/RobertLRead",
       "maintainer": true
     },
-    {
-      "name": "Ben Coombs",
-    },
-    {
-      "name": "Lauria Clarke",
-    }
+    { "name": "Ben Coombs"},
+    { "name": "Lauria Clarke"}
+    ],
+    "makers": [
+        { "name" : "Public Invention",
+          "url" : "https://www.pubinv.org/"}
     ],
     "version": "0.5",
 }
