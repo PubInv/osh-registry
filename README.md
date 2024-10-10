@@ -65,6 +65,11 @@ This project is led by Robert L. Read, Christina Cole, Victoria Jaqua and Andrew
 
 On October 10, 2024 Aditya Choksi joined the project as a volunteer.
 
+## Curent Work
+
+As of October 10, 2024, we are adding face shield project from [Open Source Medical Supplies](https://docs.google.com/document/d/14GyjfQHCUBYXt14rdb1bHVk-JzVFBmgbmjx1ar00lq4/edit?tab=t.0)
+to the registry.
+
 ## License
 
 This project is free software licensed under the GNU Affero General Public License.
