@@ -62,6 +62,7 @@ When you are ready, please visit the [live website](https://pubinv.github.io/osh
 ## Contributors
 
 This project is led by Robert L. Read, Christina Cole, Victoria Jaqua and Andrew Lamb.
+
 On October 10, 2024 Aditya Choksi joined the project as a volunteer.
 
 ## License
