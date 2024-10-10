@@ -51,5 +51,26 @@
       "maintainer": true
     }
     ]
-}
+},
+{
+    "name": "Badger Shield: Open Source Face Shield V4",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "COVID19 Medical Face Shield (University of Wisconsin)",
+    "okhURL": "NA",
+    "browseToUrl": "https://cms.delve.com/assets/documents/OPEN-SOURCE-FACE-SHIELD-DRAWING-v1.PDF",
+    "hardwareLicense": "Open Source/NA",
+    "authors": [
+    {
+      "email": "read.robert@gmail.com",
+      "url": "Jesse.Darley@delve.com",
+      "maintainer": true
+    },
+    ],
+    "makers": [
+        { "name" : "University of Wisconsin-Madison",}
+    ],
+    "version": "V4"
+},
 ]
+
