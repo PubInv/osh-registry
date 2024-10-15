@@ -71,6 +71,30 @@
         { "name" : "University of Wisconsin-Madison"}
     ],
     "version": "V4"
-}
+},
+{
+    "name": "MIT Curved Face Sheild",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "MIT Curved Face Sheild",
+    "browseToUrl": "https://gitlab.cba.mit.edu/alfonso/curved-face-shield",
+    "okhURL": "NA",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.cba.mit.edu/alfonso/curved-face-shield"
+    },
+    "hardwareLicense": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+    {
+      "name": "Alfonso Parra Rubio",
+      "email": "alfonso.parra@cba.mit.edu",
+      "url": "https://gitlab.cba.mit.edu/alfonso",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "Massachussetts Institute of Technology"}
+    ],
+    "version": "V3"
 ]
 
