@@ -73,6 +73,22 @@
     "version": "V4"
 },
 {
+    "name": "Badger Shield: Open Source Opthalmologist Face Shield V4",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "UW Keeler Opthalmoscope",
+    "okhURL": "NA",
+    "browseToUrl": "https://drive.google.com/file/d/1sXRu7n665bt_uNaU4Dg6KnH2CTxvkAsh/view",
+    "hardwareLicense": "Open Source/NA",
+    "authors": [
+    {
+      "email": "read.robert@gmail.com",
+      "url": "kjwilliamso2@wisc.edu",
+         { "name" : "University of Wisconsin-Madison"}
+    ],
+    "version": "V1"
+},
+{
     "name": "MIT Curved Face Sheild",
     "projectOrRegistry": "project",
     "keywords": "face shield, PPE, makerspace",
@@ -93,8 +109,9 @@
     }
     ],
     "makers": [
-        { "name" : "Massachussetts Institute of Technology"}
+           { "name" : "Massachussetts Institute of Technology"}
     ],
     "version": "V3"
+}
 ]
 
