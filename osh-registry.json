@@ -84,8 +84,9 @@
     {
       "email": "read.robert@gmail.com",
       "url": "kjwilliamso2@wisc.edu",
+      "makers": [
          { "name" : "University of Wisconsin-Madison"}
-    ],
+       ],
     "version": "V1"
 },
 {
