@@ -117,6 +117,30 @@
            { "name" : "Massachussetts Institute of Technology"}
     ],
     "version": "V3"
+},
+{
+    "name": "DtM Face Shield Headband",
+    "projectOrRegistry": "project",
+    "keywords": "PPE, Face Shield for 3D Printing, Face shield PPE, 3D Printed Face Shield, face-shield",
+    "description": "DtM-v3.1 Face Shield PPE, 3D printable headband NO LOGO",
+    "okhURL": "NA",
+    "browseToUrl": "https://3d.nih.gov/entries/3dpx-013359",
+    "hardwareLicense": "Public Domain",
+    "authors": [
+    {
+      "name": "Elizabeth Johnson",
+      "email": "NA",
+      "url": "NA    ",
+      "maintainer": true
+    },
+    {
+      "name": "David Packman"
+    },
+    {
+      "name": "Eric Moyer"
+    }
+    ],
+    "version": "3.1"
 }
 ]
 
