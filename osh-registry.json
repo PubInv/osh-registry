@@ -155,6 +155,27 @@
           "url" : "https://www.ic3dprinters.com/"}
     ],
     "version": "2"
+},
+{
+    "name": "Proto Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Open Source Face Shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://open-face-ppe.vercel.app/",
+    "hardwareLicense": "Open Source/CC-BY",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "covid19.taskforce@nyu.edu",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "New York University"}
+    ],
+    "version": "1.1"
 }
 ]
 
