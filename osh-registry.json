@@ -141,6 +141,20 @@
     }
     ],
     "version": "3.1"
+},
+{
+    "name": "IC3D Budmen Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "3D Printing, PPE, face shield",
+    "description": "The IC3D Budmen Face Shield is designed as a quick and low-cost method to 3D print the bracket securing a clear face shield to the wearer via an elastic strap.",
+    "okhURL": "NA",
+    "browseToUrl": "https://3d.nih.gov/entries/3dpx-013309",
+    "hardwareLicense": "CC-BY",
+    "makers": [
+        { "name" : "IC3D Printing",
+          "url" : "https://www.ic3dprinters.com/"}
+    ],
+    "version": "2"
 }
 ]
 
