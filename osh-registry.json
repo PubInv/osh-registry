@@ -62,8 +62,7 @@
     "hardwareLicense": "Open Source/NA",
     "authors": [
     {
-      "email": "read.robert@gmail.com",
-      "url": "Jesse.Darley@delve.com",
+      "email": "Jesse.Darley@delve.com",
       "maintainer": true
     }
     ],
@@ -82,7 +81,6 @@
   "hardwareLicense": "Open Source/NA",
   "authors": [
     {
-      "email": "read.robert@gmail.com",
       "url": "kjwilliamso2@wisc.edu",
       "makers": [
         {
@@ -184,13 +182,6 @@
     "okhURL": "NA",
     "browseToUrl": "https://drive.google.com/file/d/1l8ZNx5NN9ZkyUR5Z0VP2tPWTfRIMs9SF/view",
     "hardwareLicense": "Open Source/NA",
-    "authors": [
-    {
-      "name": "Robert L. Read",
-      "email": "read.robert@gmail.com",
-      "url": "https://github.com/RobertLRead",
-    }
-    ],
     "makers": [    
         { "name" : "University of Wisconsin-Madison"}
     ],
@@ -229,6 +220,9 @@
     {
       "name": "Natasha Dzurny",
       "email": "NA",
+    }
+    ],
+  "makers": [
       { "name" : " Jersey City Face Shield Project Team"}
     ],
     "version": "NA"
