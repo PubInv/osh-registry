@@ -156,25 +156,22 @@
     ],
     "version": "2"
 },
-{
-    "name": "Badger Shield: Open Source Surgical Face Shield V2",
+
+    "name": "Proto Shield",
     "projectOrRegistry": "project",
     "keywords": "face shield, PPE, makerspace",
-    "description": "UW Keeler Ophthalmoscope Shield",
+    "description": "Open Source Face Shield",
     "okhURL": "NA",
-    "browseToUrl": "https://drive.google.com/file/d/1l8ZNx5NN9ZkyUR5Z0VP2tPWTfRIMs9SF/view",
-    "hardwareLicense": "Open Source/NA",
+    "browseToUrl": "https://open-face-ppe.vercel.app/",
+    "hardwareLicense": "Open Source/CC-BY",
     "authors": [
     {
-      "email": "read.robert@gmail.com",
-      "url": "https://github.com/RobertLRead",
-      "maintainer": true
-    }
+      "name": "NA",
+      "email": "covid19.taskforce@nyu.edu",
+      "url": "NA",
+     { "name" : "New York University"}
     ],
-    "makers": [
-        { "name" : "University of Wisconsin-Madison"}
-    ],
-    "version": "2"
+    "version": "1.1"
 },
 {
     "name": "Badger Shield: Open Source Surgical Face Shield V2",
