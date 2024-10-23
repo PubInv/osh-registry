@@ -156,28 +156,6 @@
     ],
     "version": "2"
 },
-
-{
-    "name": "Jersey City Face Shield",
-    "projectOrRegistry": "project",
-    "keywords": "face shield, PPE, makerspace",
-    "description": "Used in several NJ area health facilities. Design features easily sourced materials including plastic headbands and dura-lar film",
-    "okhURL": "NA",
-    "browseToUrl": "https://technochic.net/blogs/tech-craft-tutorials/the-jersey-city-face-shield-project#About",
-    "hardwareLicense": "CC-BY",
-    "authors": [
-    {
-      "name": "Natasha Dzurny",
-      "email": "NA",
-      "url": "NA",
-      "maintainer": true
-    }
-    ],
-    "makers": [
-         { "name" : " Jersey City Face Shield Project Team"}
-    ],
-    "version": "NA"
-},
 {
     "name": "Proto Shield",
     "projectOrRegistry": "project",
@@ -215,6 +193,42 @@
         { "name" : "University of Wisconsin-Madison"}
     ],
     "version": "2"
+},
+{
+    "name": "Free Floe Adjustable Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Sanitizable face shie;d",
+    "okhURL": "NA",
+    "browseToUrl": "https://freefloe.com/faceshield",
+    "hardwareLicense": "Attribution-NonCommericial-ShareAlike 4.0",
+    "authors": [
+    {
+      "name": "FREEFLOE DESIGN LLC",
+      "email": "KADIN@FREEFLOE.COM",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [  
+        { "name" : "FREEFLOE DESIGN LLC"}
+    ],
+    "version": "4"
+},
+{
+    "name": "Jersey City Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Used in several NJ area health facilities. Design features easily sourced materials including plastic headbands and dura-lar film",
+    "okhURL": "NA",
+    "browseToUrl": "https://technochic.net/blogs/tech-craft-tutorials/the-jersey-city-face-shield-project#About",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "Natasha Dzurny",
+      "email": "NA",
+      { "name" : " Jersey City Face Shield Project Team"}
+    ],
+    "version": "NA"
 }
 ]
-
