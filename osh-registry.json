@@ -155,6 +155,47 @@
           "url" : "https://www.ic3dprinters.com/"}
     ],
     "version": "2"
+},
+{
+    "name": "Badger Shield: Open Source Surgical Face Shield V2",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "UW Keeler Ophthalmoscope Shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://drive.google.com/file/d/1l8ZNx5NN9ZkyUR5Z0VP2tPWTfRIMs9SF/view",
+    "hardwareLicense": "Open Source/NA",
+    "authors": [
+    {
+      "email": "read.robert@gmail.com",
+      "url": "https://github.com/RobertLRead",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "University of Wisconsin-Madison"}
+    ],
+    "version": "2"
+},
+{
+    "name": "Badger Shield: Open Source Surgical Face Shield V2",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "UW Keeler Ophthalmoscope Shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://drive.google.com/file/d/1l8ZNx5NN9ZkyUR5Z0VP2tPWTfRIMs9SF/view",
+    "hardwareLicense": "Open Source/NA",
+    "authors": [
+    {
+      "name": "Robert L. Read",
+      "email": "read.robert@gmail.com",
+      "url": "https://github.com/RobertLRead",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "University of Wisconsin-Madison"}
+    ],
+    "version": "2"
 }
 ]
 
