@@ -169,7 +169,8 @@
       "name": "NA",
       "email": "covid19.taskforce@nyu.edu",
       "url": "NA",
-    },
+    }
+    ],
    "makers": [    
      { "name" : "New York University"}
     ],
@@ -189,6 +190,7 @@
       "email": "read.robert@gmail.com",
       "url": "https://github.com/RobertLRead",
     }
+    ],
     "makers": [    
         { "name" : "University of Wisconsin-Madison"}
     ],
