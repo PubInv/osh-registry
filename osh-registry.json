@@ -199,15 +199,32 @@
     {
       "name": "FREEFLOE DESIGN LLC",
       "email": "KADIN@FREEFLOE.COM",
-      "url": "NA",
-      "maintainer": true
-    }
-    ],
-    "makers": [  
+        "makers": [  
         { "name" : "FREEFLOE DESIGN LLC"}
     ],
     "version": "4"
 },
+      {
+    "name": "Fast Jungle Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Lazer cut face shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://www.dinalab.net/2020/04/01/face-shield/?fbclid=IwAR2D-qJWqaQI9g6vZVTNsU1ZsHlHttXBVa2l-4ZqQxoZgVJnhpjEeIVAmb0",
+    "hardwareLicense": "Creative Commons Attribution-NonCommercial 4.0",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "NA",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "Digital Naturalism Laboratories"}
+    ],
+    "version": "1.1"
+}, 
 {
     "name": "Jersey City Face Shield",
     "projectOrRegistry": "project",
