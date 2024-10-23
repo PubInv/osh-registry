@@ -62,8 +62,7 @@
     "hardwareLicense": "Open Source/NA",
     "authors": [
     {
-      "email": "read.robert@gmail.com",
-      "url": "Jesse.Darley@delve.com",
+      "email": "Jesse.Darley@delve.com",
       "maintainer": true
     }
     ],
@@ -82,7 +81,6 @@
   "hardwareLicense": "Open Source/NA",
   "authors": [
     {
-      "email": "read.robert@gmail.com",
       "url": "kjwilliamso2@wisc.edu",
       "makers": [
         {
@@ -157,6 +155,56 @@
     "version": "2"
 },
 {
+    "name": "Proto Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Open Source Face Shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://open-face-ppe.vercel.app/",
+    "hardwareLicense": "Open Source/CC-BY",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "covid19.taskforce@nyu.edu",
+      "url": "NA"
+    }
+    ],
+   "makers": [    
+     { "name" : "New York University"}
+    ],
+    "version": "1.1"
+},
+{
+    "name": "Badger Shield: Open Source Surgical Face Shield V2",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "UW Keeler Ophthalmoscope Shield",
+    "okhURL": "NA",
+    "browseToUrl": "https://drive.google.com/file/d/1l8ZNx5NN9ZkyUR5Z0VP2tPWTfRIMs9SF/view",
+    "hardwareLicense": "Open Source/NA",
+    "makers": [    
+        { "name" : "University of Wisconsin-Madison"}
+    ],
+    "version": "2"
+},
+{
+    "name": "Free Floe Adjustable Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Sanitizable face shie;d",
+    "okhURL": "NA",
+    "browseToUrl": "https://freefloe.com/faceshield",
+    "hardwareLicense": "Attribution-NonCommericial-ShareAlike 4.0",
+    "authors": [
+    {
+      "name": "FREEFLOE DESIGN LLC",
+      "email": "KADIN@FREEFLOE.COM",
+        "makers": [  
+        { "name" : "FREEFLOE DESIGN LLC"}
+    ],
+    "version": "4"
+},
+{
     "name": "Fast Jungle Face Shield",
     "projectOrRegistry": "project",
     "keywords": "face shield, PPE, makerspace",
@@ -176,6 +224,24 @@
         { "name" : "Digital Naturalism Laboratories"}
     ],
     "version": "1.1"
+}, 
+{
+    "name": "Jersey City Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Used in several NJ area health facilities. Design features easily sourced materials including plastic headbands and dura-lar film",
+    "okhURL": "NA",
+    "browseToUrl": "https://technochic.net/blogs/tech-craft-tutorials/the-jersey-city-face-shield-project#About",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "Natasha Dzurny",
+      "email": "NA"
+    }
+    ],
+  "makers": [
+      { "name" : " Jersey City Face Shield Project Team"}
+    ],
+    "version": "NA"
 }
 ]
-
