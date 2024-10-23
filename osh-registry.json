@@ -199,7 +199,8 @@
     {
       "name": "FREEFLOE DESIGN LLC",
       "email": "KADIN@FREEFLOE.COM",
-        "makers": [  
+    }],
+    "makers": [  
         { "name" : "FREEFLOE DESIGN LLC"}
     ],
     "version": "4"
