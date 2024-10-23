@@ -157,6 +157,28 @@
     "version": "2"
 },
 
+{
+    "name": "Jersey City Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "Used in several NJ area health facilities. Design features easily sourced materials including plastic headbands and dura-lar film",
+    "okhURL": "NA",
+    "browseToUrl": "https://technochic.net/blogs/tech-craft-tutorials/the-jersey-city-face-shield-project#About",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "Natasha Dzurny",
+      "email": "NA",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+         { "name" : " Jersey City Face Shield Project Team"}
+    ],
+    "version": "NA"
+},
+{
     "name": "Proto Shield",
     "projectOrRegistry": "project",
     "keywords": "face shield, PPE, makerspace",
@@ -169,6 +191,8 @@
       "name": "NA",
       "email": "covid19.taskforce@nyu.edu",
       "url": "NA",
+    },
+   "makers": [    
      { "name" : "New York University"}
     ],
     "version": "1.1"
@@ -186,10 +210,8 @@
       "name": "Robert L. Read",
       "email": "read.robert@gmail.com",
       "url": "https://github.com/RobertLRead",
-      "maintainer": true
     }
-    ],
-    "makers": [
+    "makers": [    
         { "name" : "University of Wisconsin-Madison"}
     ],
     "version": "2"
