@@ -289,5 +289,26 @@
         { "name" : "Prusa Research"}
     ],
     "version": "NA"
+},
+{
+    "name": "Mega Wilson",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, dental",
+    "description": "Dentist-requested remix of the existing Budmen shield.",
+    "okhURL": "NA",
+    "browseToUrl": "https://www.tinkercad.com/things/e85Mc3PbHem",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "NA",
+      "url": "https://www.tinkercad.com/users/gCVwsbDX2v9-q1g0ng",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "NA"}
+    ],
+    "version": "5"
 }
 ]
