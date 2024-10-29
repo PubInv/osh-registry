@@ -310,5 +310,26 @@
         { "name" : "NA"}
     ],
     "version": "5"
+},
+{
+    "name": "Milwaukee Makerspace Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace",
+    "description": "CNC and Injection Molded version of the v3 3D Verkstan shield, 6 hole North American design.",
+    "okhURL": "https://github.com/raster/MMS-Face-Shield?fbclid=IwAR0WkY2EEIgcGfV3WB6s5rP51Lk15lYz9K19944MHRSXsvdNrABiS-vB9gY",
+    "browseToUrl": "https://www.tinkercad.com/things/e85Mc3PbHem",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "NA",
+      "url": "https://milwaukeemakerspace.org/",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "Milwaukee Makerspace"}
+    ],
+    "version": "3"
 }
 ]
