@@ -352,5 +352,26 @@
         { "name" : "MIMO Motor"}
     ],
     "version": "NA"
+},
+{
+    "name": " Clever Little Maker CNC Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, foldable",
+    "description": "Open Source CNC-based Face Shield for protecting medical personnel",
+    "okhURL": "https://github.com/CleverLittleMaker/CLMFaceShield?fbclid=IwAR3CoafB_Kx5nVKNQB9niuDIl83wL2WCxQrx0H6I_2Rs1cvxmuYiNewmLxE",
+    "browseToUrl": "https://github.com/CleverLittleMaker/CLMFaceShield?fbclid=IwAR3CoafB_Kx5nVKNQB9niuDIl83wL2WCxQrx0H6I_2Rs1cvxmuYiNewmLxE",
+    "hardwareLicense": "Open Source",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "NA",
+      "url": "https://github.com/CleverLittleMaker",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "NA"}
+    ],
+    "version": "5"
 }
 ]
