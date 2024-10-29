@@ -246,13 +246,13 @@
     "version": "NA"
 },
 {
-    "name": "Jersey City Face Shield",
+    "name": "Bauhaus Univisor",
     "projectOrRegistry": "project",
-    "keywords": "face shield, PPE, makerspace",
+    "keywords": "face shield, PPE, makerspace, visor",
     "description": "Flexible laser-cut design with incorporated adjustable fastener.",
     "okhURL": "https://github.com/bauhausformandfunctionlab/covid19/tree/master/BauhausUniVisor",
     "browseToUrl": "https://github.com/bauhausformandfunctionlab/covid19/tree/master/BauhausUniVisor",
-    "hardwareLicense": "CC-BY",
+    "hardwareLicense": "Creative Commons (4.0 International License) Attribution",
     "authors": [
     {
       "name": "Andreas Mühlenberend",
@@ -266,6 +266,27 @@
     ],
     "makers": [
         { "name" : "Bauhaus-Universität Weimar"}
+    ],
+    "version": ""
+},
+{
+    "name": "Prusa Face Shield for Dentist",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, binocular, dental",
+    "description": "Modified Prusa designs specifically for dental loupes and optics.",
+    "okhURL": "NA",
+    "browseToUrl": "https://www.printables.com/model/30615-prusa-face-shield-for-dentist",
+    "hardwareLicense": "Creative Commons (4.0 International License) Attribution",
+    "authors": [
+    {
+      "name": "Fromzy",
+      "email": "NA",
+      "url": "https://www.printables.com/@Fromzy_43687",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "Prusa Research"}
     ],
     "version": ""
 }
