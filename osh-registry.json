@@ -267,7 +267,7 @@
     "makers": [
         { "name" : "Bauhaus-Universität Weimar"}
     ],
-    "version": ""
+    "version": "NA"
 },
 {
     "name": "Prusa Face Shield for Dentist",
@@ -288,6 +288,6 @@
     "makers": [
         { "name" : "Prusa Research"}
     ],
-    "version": ""
+    "version": "NA"
 }
 ]
