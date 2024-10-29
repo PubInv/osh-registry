@@ -394,5 +394,26 @@
         { "name" : "MakerBot Replicator"}
     ],
     "version": "5"
+},
+{
+    "name": "Baseline Design Dental Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, dental",
+    "description": "Frontal visor clearance is 4”. Dentist-requested and informed design process.",
+    "okhURL": "NA",
+    "browseToUrl": "https://drive.google.com/drive/folders/1m9TbodIiRrV7RE-_95i1v8EssJgdXFmx",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "kinly",
+      "email": "NA",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "NA"}
+    ],
+    "version": "1.3"
 }
 ]
