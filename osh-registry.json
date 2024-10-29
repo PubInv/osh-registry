@@ -331,5 +331,26 @@
         { "name" : "Milwaukee Makerspace"}
     ],
     "version": "3"
+},
+{
+    "name": "MimoMotor Foldable Eyeglass-Style Shield",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, foldable",
+    "description": "Unique design featuring foldable, eyeglass-style armature printable on the small beds of basic 3D printers",
+    "okhURL": "NA",
+    "browseToUrl": "https://www.mimomotor.com/COVID19-Response/?fbclid=IwAR1cIupHZ3bdaMM9LmQ2LQhSHvRC1EFKbxMo6mRRYAwEDdsgK9zXHmLevNQ",
+    "hardwareLicense": "NA",
+    "authors": [
+    {
+      "name": "NA",
+      "email": "NA",
+      "url": "NA",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "MIMO Motor"}
+    ],
+    "version": "NA"
 }
 ]
