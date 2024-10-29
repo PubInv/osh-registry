@@ -373,5 +373,26 @@
         { "name" : "NA"}
     ],
     "version": "5"
+},
+{
+    "name": "Swedish Shield Dental Extension",
+    "projectOrRegistry": "project",
+    "keywords": "face shield, PPE, makerspace, dental",
+    "description": "Inner visor band set back 1.5’’ to provide more clearance for dental loupes.",
+    "okhURL": "NA",
+    "browseToUrl": "https://www.thingiverse.com/thing:4327024#google_vignette",
+    "hardwareLicense": "CC-BY",
+    "authors": [
+    {
+      "name": "Cristina Saldana",
+      "email": "NA",
+      "url": "https://www.thingiverse.com/cristinasaldana/designs",
+      "maintainer": true
+    }
+    ],
+    "makers": [
+        { "name" : "MakerBot Replicator"}
+    ],
+    "version": "5"
 }
 ]
