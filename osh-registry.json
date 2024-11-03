@@ -436,5 +436,274 @@
         { "name" : "Maker Nexus"}
     ],
     "version": "NA"
+},
+{
+    "name": "DK Makers Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "visor, dentist, DK Makers",
+    "description": "Design distributed in Denmark with over 100k units produced. The bracket and brow pieces hold the shield in place without hole punching. Version .9 was designed specifically for dental loupes.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4347611",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution",
+    "authors": [
+        {
+            "name": "DK_Makers_mod_Corona",
+            "email": "not published",
+            "url": "https://www.thingiverse.com/dk_makers_mod_corona/designs",
+            "maintainer": true
+        }
+        ],
+    "makers": [
+        { "name" : "NA"}
+    ],
+    "version": "0.7-0.9"
+},
+{
+    "name": "Liftup Face Shield with AutoLock",
+    "projectOrRegistry": "project",
+    "keywords": "shield, Liftup, Lift",
+    "description": "Lifts up 90 degrees and locks in place. Shield requires no hole punching.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4264137",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution",
+    "authors": [
+        {
+            "name": "Hanoch Hemmerich",
+            "email": "not published",
+            "url": "https://www.thingiverse.com/hanochh/designs",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
+},
+{
+    "name": "3DP High-Clearance Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "dentist, clear, Verkstan style",
+    "description": "Frontal clearance and side coverage for dental loupe usage.",
+    "browseToUrl": "https://3d.nih.gov/entries/3dpx-014582",
+    "okhURL": "NA",
+    "hardwareLicense": "CC-BY-NC-SA",
+    "authors": [
+        {
+            "name": "kwarner",
+            "email": "not published",
+            "url": "https://3d.nih.gov/users/kwarner",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "2"
+},
+{
+    "name": "Profaster Alpha Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "mobility, shield, protection, forehead",
+    "description": "Fast printing shield with forehead coverage adaptable to 3DP, laser cutting, and CNC.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4314285?fbclid=IwAR0vNdbzibLIA8-O982qT9OdbSWV7VYHPRqa2SPIOAsaglPz6H2IYI6TdM0",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "authors": [
+        {
+            "name": "PhoenixEquipement",
+            "email": "not published",
+            "url": "https://www.thingiverse.com/phoenixequipement/designs",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "2"
+},
+{
+    "name": "Profaster Alpha Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "mobility, shield, protection, forehead",
+    "description": "Fast printing shield with forehead coverage adaptable to 3DP, laser cutting, and CNC.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4314285?fbclid=IwAR0vNdbzibLIA8-O982qT9OdbSWV7VYHPRqa2SPIOAsaglPz6H2IYI6TdM0",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - Non-Commercial - No Derivatives",
+    "authors": [
+        {
+            "name": "PhoenixEquipement",
+            "email": "not published",
+            "url": "https://www.thingiverse.com/phoenixequipement/designs",
+            "maintainer": true
+        },
+        {
+            "name": "PhoenixEquipement",
+            "email": "not published",
+            "url": "https://www.phoenix-equipement.com/en",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "2"
+},
+{
+    "name": "Makers Unite Hardhat Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "PPE, Hardhat",
+    "description": "Features acrylic and PETG components for a fully operable (flips up and down) protective visor that fits standard issue USDA hardhats.",
+    "browseToUrl": "https://drive.google.com/drive/folders/1O7JifqSD2cZepNq1Q-eP-8O93xcTE7AX",
+    "okhURL": "NA",
+  "hardwareLicense": "NA",
+    "authors": [
+        {
+            "name": "Daniele Dellorto",
+            "email": "daniele.dellorto12@gmail.com",
+            "url": "NA",
+            "maintainer": true
+        },
+        {
+            "name": "will",
+            "email": "not published",
+            "url": "NA",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "5"
+},
+{
+    "name": "Maker Wasi Face Protector for Children",
+    "projectOrRegistry": "project",
+    "keywords": "Children, careta, protector",
+    "description": "Laser-cut design with three animal character options for visor decoration. Pattern is in Peruvian Spanish.",
+    "browseToUrl": "https://drive.google.com/drive/folders/1z5V-Vr2IhNkTULRHYDnu3yJRtQnGGCZc?fbclid=IwAR2wEgah40o1h6iQ1NisTrRpCynAJjcoMkE5fzAlE58WjQraAQwcUQVPNYo",
+    "okhURL": "NA",
+  "hardwareLicense": "NA",
+    "authors": [
+        {
+            "name": "Ruben Santander",
+            "email": "NA",
+            "url": "NA",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
+},
+{
+    "name": "Verkstan Character Face Shield",
+    "projectOrRegistry": "project",
+    "keywords": "Kid, diseño, protector",
+    "description": "3DP headband featuring many options for a central character decoration. The decoration can be fully 3DP or hand-painted for personalization. Later, this could be removed from the shield and turned into a keepsake. Design description is in Spanish.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4329237?fbclid=IwAR0Z7I4WIYNb7-8m2lJB_kVTNFBA2EzOi3umk0BN3N8sdkBj2lXPvOlg7zs",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - Share Alike",
+    "authors": [
+        {
+            "name": "Pedro Mina",
+            "email": "NA",
+            "url": "https://www.thingiverse.com/pedromina/designs",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
+},
+{
+    "name": "Aegis Endo Shield",
+    "projectOrRegistry": "project",
+    "keywords": "Endoscop, aerosol, barrier, protection",
+    "description": "Shield designed by ENT physicians in the Philippines to allow safer endoscopic study of Covid patients. Design fits most commonly used endoscopes and incorporates 3DP and acetate sheet cutting.",
+    "browseToUrl": "https://www.thingiverse.com/thing:4320218?fbclid=IwAR2cOEElApwqAQ3zDa6MzTnTtxCTrRVMJ1GLILwcsnJEHTEUxVN0gW68dWc",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - Share Alike",
+    "authors": [
+        {
+            "name": "Aeneas Solis",
+            "email": "NA",
+            "url": "https://www.thingiverse.com/alsolis/designs#google_vignette",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
+},
+{
+    "name": "Prusa Children's Face Shield - USA Version",
+    "projectOrRegistry": "project",
+    "keywords": "Remix, Prusa, face shield",
+    "description": "Child-sized version of the Prusa shield, featuring a visor design compatible with an American 3-hole punch.",
+    "browseToUrl": "https://www.printables.com/model/35798-childrens-face-shield-usa-version",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - NonCommercial",
+    "authors": [
+        {
+            "name": "Yo-Stuff",
+            "email": "NA",
+            "url": "https://www.printables.com/@YoStuff_78734",
+            "maintainer": true
+        },
+		{
+            "name": "Prusa Research",
+            "email": "NA",
+         	"url": "{https://www.prusa3d.com/?_gl=1*678641*_gcl_au*NjI0NTIwNzU3LjE3MzA1ODQxNzg.*_ga*MTI0Mzc4NzQ4NC4xNzMwNTg0MTcx*_ga_3HK7B7RT5V*MTczMDU5MzUxNy4yLjEuMTczMDU5Mzg0Mi41MS4wLjA}",        
+		  	"maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
+},
+{
+    "name": "CDS Face Shield Frame - Sized for Child",
+    "projectOrRegistry": "project",
+    "keywords": "Children, face shield",
+    "description": "Headband size for 5-8-year-old age group, with standard 8.5 x 11 projector sheets as a visor. Prints in 25 minutes using PLA.",
+    "browseToUrl": "https://www.printables.com/model/84080-face-shield-frame-sized-for-child",
+    "okhURL": "NA",
+    "hardwareLicense": "Creative Commons - Attribution - NonCommercial",
+    "authors": [
+        {
+            "name": "cdsmakestuff",
+            "email": "NA",
+            "url": "https://www.printables.com/@cdsmakestuff",
+            "maintainer": true
+        }
+    ],
+    "makers": [
+        {
+            "name": "NA"
+        }
+    ],
+    "version": "NA"
 }
 ]
