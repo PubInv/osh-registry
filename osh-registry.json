@@ -494,7 +494,7 @@
             "name": "kwarner",
             "email": "not published",
             "url": "https://3d.nih.gov/users/kwarner",
-            "maintainer": true
+            "maintainer": false
         }
     ],
     "makers": [
@@ -541,17 +541,14 @@
             "email": "not published",
             "url": "https://www.thingiverse.com/phoenixequipement/designs",
             "maintainer": true
-        },
+        }
+    ],
+    "makers": [
         {
             "name": "PhoenixEquipement",
             "email": "not published",
             "url": "https://www.phoenix-equipement.com/en",
             "maintainer": true
-        }
-    ],
-    "makers": [
-        {
-            "name": "NA"
         }
     ],
     "version": "2"
@@ -575,7 +572,7 @@
             "name": "will",
             "email": "not published",
             "url": "NA",
-            "maintainer": true
+            "maintainer": false
         }
     ],
     "makers": [
@@ -598,7 +595,7 @@
             "name": "Ruben Santander",
             "email": "NA",
             "url": "NA",
-            "maintainer": true
+            "maintainer": false
         }
     ],
     "makers": [
@@ -673,7 +670,7 @@
             "name": "Prusa Research",
             "email": "NA",
          	"url": "{https://www.prusa3d.com/?_gl=1*678641*_gcl_au*NjI0NTIwNzU3LjE3MzA1ODQxNzg.*_ga*MTI0Mzc4NzQ4NC4xNzMwNTg0MTcx*_ga_3HK7B7RT5V*MTczMDU5MzUxNy4yLjEuMTczMDU5Mzg0Mi41MS4wLjA}",        
-		  	"maintainer": true
+		  	"maintainer": false
         }
     ],
     "makers": [
