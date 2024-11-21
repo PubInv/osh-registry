@@ -3,6 +3,10 @@
 
 This is a work-in-progess in early stages.
 
+NOTE: AS of November, 2024, we believe it is better to support Robin Vobruba's
+[LOSH Crawler](https://github.com/OPEN-NEXT/LOSH-krawler). Our current plan is 
+to support LOSH.
+
 ## The Idea
 
 This repo is modeled after the [Arduino Library Registry](https://github.com/arduino/library-registry)
